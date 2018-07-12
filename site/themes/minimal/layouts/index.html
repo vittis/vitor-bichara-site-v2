@@ -1,0 +1,51 @@
+{{ partial "header" . }}
+<style>
+    #particles-js {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index:-2; 
+    }
+    #titulo {
+        white-space: nowrap;
+    }
+    
+</style>
+<main>
+
+    <div class="intro">
+
+        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
+
+        <h1 id="titulo">{{ .Site.Title }}</h1>
+
+        <h2 id="h2desc">{{ markdownify .Site.Params.Description }}</h2>
+        
+    </div>
+    <div id="particles-js"></div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js', './particlesjs-config.json', function() {
+  });
+  var h2desc = document.getElementById("h2desc")
+  var style2 = window.getComputedStyle(h2desc, null).getPropertyValue('font-size');
+  var h2fontSize = parseFloat(style2); 
+  if (h2fontSize < 16) {
+      h2desc.style.fontSize = 16+'px';
+  }
+
+
+  while (titulo.clientWidth > window.outerWidth-50) {
+    var style = window.getComputedStyle(titulo, null).getPropertyValue('font-size');
+    var fontSize = parseFloat(style); 
+    titulo.style.fontSize = (fontSize - 10) + 'px';
+  }
+</script>
+
+{{ partial "footer" . }}
