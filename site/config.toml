@@ -9,7 +9,7 @@ googleAnalytics = ""
     author = "Calin Tataru"
     description = "Desenvolvedor Full Stack e Designer"
     githubUsername = "vittis"
-    accent = "red"
+    accent = "#1a7d8b"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
@@ -19,12 +19,12 @@ googleAnalytics = ""
 
 [[menu.main]]
     url = "/"
-    name = "Home"
+    name = "Início"
     weight = 1
 
 [[menu.main]]
     url = "/post/"
-    name = "Blog"
+    name = "Posts"
     weight = 2
 
 [[menu.main]]
