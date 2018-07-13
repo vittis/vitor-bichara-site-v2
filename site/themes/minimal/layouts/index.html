@@ -31,8 +31,14 @@
 </main>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
-    particlesJS.load('particles-js', './particlesjs-config.json', function() {
-  });
+    if (window.outerHeight > window.innerWidth) {
+        particlesJS.load('particles-js', './particlesjs-config-mobile.json', function() {
+        });
+    }
+    else {
+        particlesJS.load('particles-js', './particlesjs-config.json', function() {
+        });
+    }
   var h2desc = document.getElementById("h2desc")
   var style2 = window.getComputedStyle(h2desc, null).getPropertyValue('font-size');
   var h2fontSize = parseFloat(style2); 

@@ -7,7 +7,7 @@ googleAnalytics = ""
 
 [params]
     author = "Calin Tataru"
-    description = "Desenvolvedor Full Stack e Designer"
+    description = "Desenvolvedor Full Stack"
     githubUsername = "vittis"
     accent = "#1a7d8b"
     showBorder = true
@@ -37,26 +37,33 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:vitbolb1@gmail.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
+    url = "https://www.facebook.com/vitt94"
+    name = "facebook-square"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
+    url = "https://www.instagram.com/v.bichara/"
+    name = "instagram"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
+    url = "https://github.com/vittis"
+    name = "github"
     weight = 4
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+
+
+#[[menu.icon]]
+ #   url = "https://www.linkedin.com/in/username/"
+ #   name = "linkedin"
+ #   weight = 4
+
+#[[menu.icon]]
+ #   url = "https://www.stackoverflow.com/username/"
+  #  name = "stack-overflow"
+  #  weight = 5
