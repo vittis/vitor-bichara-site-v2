@@ -1,11 +1,17 @@
 {{ partial "header" . }}
 
 <main>
-
-    <h2>{{ .Title }}</h2>
+    <h2 id="tituloSessao">{{ .Title }}</h2>
 
     {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
-
+    <script>
+        var titulo = document.getElementById("tituloSessao");
+        if (titulo.innerHTML == "Projects") {
+            document.title = "Projetos";
+            titulo.innerHTML = "Projetos";
+        }
+        
+    </script>
 </main>
 
 {{ partial "paginator" . }}
