@@ -15,7 +15,12 @@ main {
     flex: 1 0 auto;
     max-width: 750px;
 }
-
+.twitter-tweet {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
 /*footer*/
 
 .copyright {
