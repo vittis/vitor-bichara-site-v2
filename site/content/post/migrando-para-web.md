@@ -1,7 +1,7 @@
 ---
 title: "Migrando para a web: Jornada, motivação e lições aprendidas"
-date: 2018-07-15
-tags: ["pessoal", "gamedev", "web"]
+date: 2018-07-17
+tags: ["relato", "gamedev", "web"]
 draft: false
 ---
 
@@ -46,9 +46,9 @@ Comecei a pesquisar sobre o mercado de jogos e quanto mais me aprofundava sobre 
 
 {{< tweet 838967034599727104 >}}
 
-Um dos recursos inestimáveis nessa fase de descobertas, certamente foi o [blog do TrueValhalla](https://www.truevalhalla.com/) cuja descrição é "Professional game development insights, market analysis, and strategic discussion". Ou seja, era justamente o que eu procurava. 
+Um dos recursos inestimáveis nessa fase de descobertas, certamente foi o [blog do True Valhalla](https://www.truevalhalla.com/) cuja descrição é "Professional game development insights, market analysis, and strategic discussion". Ou seja, era justamente o que eu procurava. 
 
-Todo mês TrueValhalla publica em seu blog um relatório de renda totalmente transparente, onde ele compartilha todos os dados de vendas e tráfego de seus jogos HTML5, e-books e site (sendo os jogos, obviamente, a maior fonte de renda). Além disso, ele compartilha abertamente o seu modelo de negócio e formas de aproximação em grandes publishers da web. Para um iniciante como eu, era, e ainda é, um recurso muito valioso.
+Todo mês True Valhalla publica em seu blog um relatório de renda totalmente transparente, onde ele compartilha todos os dados de vendas e tráfego de seus jogos HTML5, e-books e site (sendo os jogos, obviamente, a maior fonte de renda). Além disso, ele compartilha abertamente o seu modelo de negócio e formas de aproximação em grandes publishers da web. Para um iniciante como eu, era, e ainda é, um recurso muito valioso.
 
 <figure>
   <img src="/img/truevalha.jpg" class="img-responsive center-block" style="width: 80%;padding: 5px;padding-bottom: 0px;" />
