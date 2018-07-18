@@ -5,9 +5,9 @@ tags: ["pessoal", "gamedev", "web"]
 draft: false
 ---
 
-Olá! Primeiramente seja bem-vindo ao primeiro post do meu blog! 
+Olá! Inicialmente seja bem-vindo ao primeiro post do meu blog! 
 
-Nesse post pretendo falar sobre as 
+Neste post vou falar sobre as 
 motivações que me levaram a desenvolver para a web. Também detalharei as experiências que tive ao desenvolver o meu primeiro projeto
 para a web: CastleArena.io.
 
@@ -16,7 +16,7 @@ para a web: CastleArena.io.
 Antes de começar, gostaria de falar um pouco sobre mim e como iniciei a minha carreira profissional.
 
 Na época que ingressei no curso de Ciência na Computação, na UnB, em 2013, sempre tive o desejo
-de fazer jogos. Não me interessavam tanto as outras áreas da computação. Trabalhar com jogos era um sonho para mim e 
+de fazer jogos. Não me interessavam tanto as outras áreas da computação. Trabalhar com jogos era um sonho para mim, 
 praticamente uma meta de vida até então.
 
 Correndo atrás desse sonho, em 2014 tomei iniciativa e chamei alguns amigos do curso para participar de uma Game Jam, uma competição de desenvolvimento de jogos com limite de tempo. Até então tínhamos apenas 1 ano de experiência de programação e muito menos em desenvolvimento de jogos. Ao participar desse evento, nossa intenção era apenas conhecer a comunidade e adquirir experiência. Por sermos completos iniciantes, não pensamos que seríamos capazes de vencer, na realidade nem estávamos pensando muito nisso.
@@ -30,9 +30,9 @@ Assim nasceu a **[Mad Pixel Studios](http://madpixel.com.br/)**.
   <figcaption style="text-align: center;padding: 5px;">Vortex, A Tormenta de Morpheus: Jogo vencedor da Jam Nerd Festival 2014</figcaption>
 </figure>
 
-A minha experiência como sócio-fundador na Mad Pixel foi excelente. Demos duas palestras sobre desenvolvimento de jogos, uma na Campus Party Brasil 2016, em São Paulo, outra em Anápolis, à convite do curso de engenharia da computação da UniEvangélica. Também participamos de várias outras Game Jams, dentre outros pequenos feitos.
+A minha experiência como sócio-fundador na Mad Pixel foi excelente. Demos duas palestras sobre desenvolvimento de jogos, uma na Campus Party Brasil 2016, em São Paulo, outra em Anápolis, a convite do curso de engenharia da computação da UniEvangélica. Também participamos de várias outras Game Jams, dentre outros pequenos feitos.
 
-Apesar de estar indo bem, em 2016 decidi sair da empresa. Houveram vários motivos que culminaram nessa decisão, os quais não detalharei aqui. Para resumir, eu não estava de acordo com o rumo que a empresa estava tomando. Acreditava ter outros planos para a minha carreira, apesar de não saber exatamente quais eram.
+Apesar de estar indo bem, em 2016 decidi sair da empresa. Houveram vários motivos que culminaram nessa decisão. Para resumir, eu não estava de acordo com o rumo que a empresa estava tomando. Acreditava ter outros planos para a minha carreira, apesar de não saber exatamente quais eram.
 
 ## Como viver fazendo jogos? Eis a questão.
 
@@ -74,7 +74,7 @@ Ao invés disso, pularei direto para o dia do lançamento do jogo, após 7 meses
   <figcaption style="text-align: center;padding: 5px;margin-bottom:10px;"></figcaption>
 </figure>
 
-Confesso que fiquei completamente surpreso com esses números, principalmente sem gastar nada na divulgação! Até hoje ainda é um pouco estranho pensar que milhares de pessoas jogam um jogo que eu fiz diariamente. Não consigo descrever muito bem o sentimento que senti, mas foi de uma felicidade extrema. É muito bom ver o seu trabalho duro sendo recompensado.
+Confesso que fiquei completamente surpreso com esses números, principalmente sem gastar nada na divulgação! Até hoje ainda é um pouco estranho pensar que milhares de pessoas jogam um jogo que eu fiz diariamente. Não consigo descrever muito bem o sentimento que me tomou, mas foi de uma felicidade extrema. É muito bom ver o seu trabalho duro sendo recompensado.
 
 Falando em recompensa... Você deve estar se perguntando "Tá, e quanto dinheiro você ganhou?". Surpresa: **Nenhum!**
 
@@ -84,7 +84,7 @@ Infelizmente, não planejei muito bem a monetização do jogo, na verdade, eu a 
 
 Após a onda tremenda de acessos inicial, tentei de tudo para monetizar o jogo através de propagandas, pelo Google AdSense, infelizmente não tive sucesso e todos os meus pedidos foram negados. Tentei outras alternativas, mas tudo estava sendo muito complicado e eu já não tinha tantas energias. Essa é uma das lições que aprendi na prática: Não subestime a monetização do seu jogo ou app ou seja lá do que for, porque pode ser mais díficil do que parece.
 
-Nos meses seguintes os acessos foram caindo aos poucos, o que era esperado, apesar de ainda estarem consistentes e numa quantidade que eu ainda acho considerável.
+Nos meses seguintes os acessos foram caindo aos poucos, o que era esperado, apesar de ainda estarem consistentes e numa quantidade considerável.
 
 ## Futuro
 
