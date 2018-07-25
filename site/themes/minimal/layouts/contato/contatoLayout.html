@@ -22,8 +22,16 @@
       margin-bottom: 15px;
       padding: 10px;
       border: 2px solid #dadada;
+      transition: all 0.30s ease-in-out;
+      -webkit-transition: all 0.30s ease-in-out;
+      -moz-transition: all 0.30s ease-in-out;
+      -ms-transition: all 0.30s ease-in-out;
+      -o-transition: all 0.30s ease-in-out;
     }
-
+    input[type=text]:focus, textarea:focus {
+      box-shadow: 0 0 5px #4a8a8a;
+      border: 2px solid #4a8a8a;
+    }
     main p {
       font-size: 16px;
       text-align: justify;
@@ -47,8 +55,6 @@
 </style>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <main>
- {{.Content}}
-
 
  <h1>Entre em contato</h1>
 
