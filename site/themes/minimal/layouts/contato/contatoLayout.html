@@ -1,0 +1,41 @@
+{{ partial "header" . }}
+
+<style>
+    /* main h1 {
+        font-weight: bold;
+    } */
+</style>
+
+<main>
+ {{.Content}}
+
+
+ <h1>Fale comigo</h1>
+
+ <p>asdasdasd asdsada sd as dsa
+     da sda sda sd as
+ </p>
+
+
+
+ <form name="contact" method="POST" netlify>
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+
+
+
+
+</main>
+
+{{ partial "footer" . }}

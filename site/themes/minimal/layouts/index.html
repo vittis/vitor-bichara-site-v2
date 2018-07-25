@@ -13,18 +13,51 @@
     #titulo {
         white-space: nowrap;
     }
-    
+    .intro > a > h3 {
+        color:  white;
+        font-size: 2vmin;
+        display: inline-block;
+        border-radius: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 12px;
+        padding-left: 12px;
+        background-color: #4a8a8a;
+        transition: all 0.3s;
+    }
+
+    /* .intro > a > h3 {
+        color: #367171 ;
+        font-size: 2vmin;
+        display: inline-block;
+       
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 12px;
+        padding-left: 12px;
+        transition: all 0.5s;
+        background-color: #ecd999;
+
+    } */
+
+
+    .intro > a > h3:hover {
+        color: #367171;
+        background-color: #ecd999;
+        transform: scale(1.1);
+    }
 </style>
 <main>
 
-    <div class="intro">
+    <div class="intro" id="intro">
 
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
 
         <h1 id="titulo">{{ .Site.Title }}</h1>
 
         <h2 id="h2desc">{{ markdownify .Site.Params.Description }}</h2>
-        
+        <a  href="/contato"><h3 id="h3desc">Entre em contato</h3></a>
     </div>
     <div id="particles-js"></div>
 
@@ -47,11 +80,26 @@
   }
 
 
+  var h3desc = document.getElementById("h3desc")
+  var style3 = window.getComputedStyle(h3desc, null).getPropertyValue('font-size');
+  var h3fontSize = parseFloat(style3); 
+  if (h3fontSize < 16) {
+      h3desc.style.fontSize = 14+'px';
+  }
+
+
+
   while (titulo.clientWidth > window.outerWidth-50) {
     var style = window.getComputedStyle(titulo, null).getPropertyValue('font-size');
     var fontSize = parseFloat(style); 
     titulo.style.fontSize = (fontSize - 10) + 'px';
   }
+
+  if (window.outerWidth < window.outerHeight) {
+    var intro = document.getElementById("intro")
+    intro.style.transform = "translateY(16vh)"
+  }
+
 </script>
 
 {{ partial "footer" . }}
