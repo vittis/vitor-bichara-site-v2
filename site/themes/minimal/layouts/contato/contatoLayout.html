@@ -1,41 +1,92 @@
 {{ partial "header" . }}
 
 <style>
-    /* main h1 {
-        font-weight: bold;
-    } */
-</style>
+    main h1 {
+      color: #0e4366;
+    }
+    .socialIcon {
+      color: #04253b;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      transition: transform 0.5s;
+      opacity: 0.7;
+    }
+    .socialIcon:hover {
+      transform: scale(1.2);
+    }
+    .inputField {
+      min-width: 200px;
+      width: 70%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 2px solid #dadada;
+    }
 
+    main p {
+      font-size: 16px;
+      text-align: justify;
+    }
+    form button {
+      border-radius: 5px;
+      border: none;
+      color: white;
+      background-color: #4a8a8a;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: all 0.3s;
+    }
+    form button:hover {
+      color: #367171;
+      background-color: #ecd999;
+      transform: scale(1.1);
+    }
+    
+</style>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <main>
  {{.Content}}
 
 
- <h1>Fale comigo</h1>
+ <h1>Entre em contato</h1>
 
- <p>asdasdasd asdsada sd as dsa
-     da sda sda sd as
- </p>
+  <img src="../img/eu.jpg" alt="Avatar" style="margin: 0 auto;margin-top: 20px;margin-bottom: 10px;display: block;width: 45%;max-width: 250px;border-radius: 50%;border: 0px solid #ddd;filter: drop-shadow(2px 2px 3px grey);">
+  <a target="_blank" href="https://www.facebook.com/vitt94" style="text-decoration: none;">
+    <i class="socialIcon" data-feather="facebook" style="display: inline"></i>
+  </a>
+  <a target="_blank" href="https://www.instagram.com/v.bichara/" style="text-decoration: none;">
+    <i class="socialIcon" data-feather="instagram" style="display: inline"></i>
+  </a>
+  <a target="_blank" href="mailto:vitbolb1@gmail.com" style="text-decoration: none;">
+    <i class="socialIcon" data-feather="mail" style="display: inline"></i>
+  </a>
+  <a target="_blank" href="https://github.com/vittis" style="text-decoration: none;">
+    <i class="socialIcon" data-feather="github" style="display: inline"></i>
+  </a>
+<br>
 
-
-
+<p>
+  Para entrar em contato, basta preencher os formulários abaixo ou, caso prefira, me abordar em uma das minhas redes sociais.
+  Caso esteja interessado em algum dos meus serviços, certifique-se de ler o meu post sobre <a href="/post/freelance">os meus serviços freelance</a>.
+</p>
+<br>
  <form name="contact" method="POST" netlify>
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>   
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
+    <input class="inputField" type="text" name="user" placeholder="Nome">
+    <br>
+    <input class="inputField" type="text" name="email" placeholder="E-mail">
+    <br>
+    <textarea class="inputField" name="message" placeholder="Mensagem"></textarea>
+    <br>
+    <button type="submit">Enviar</button>
   </form>
 
 
 
 
 </main>
-
+<script>
+    feather.replace()
+  </script>
 {{ partial "footer" . }}
