@@ -77,6 +77,19 @@ a:hover {
 
 /*list item for posts and projects*/
 
+.projetoImg {
+    max-width: 70%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 3px;
+    transition: all 0.5s;
+    cursor: crosshair;
+    margin-bottom: 5px;
+}
+
+.projetoImg:hover {
+    transform: scale(1.02)
+}
+
 .item {
     padding: 10px 0;
 }

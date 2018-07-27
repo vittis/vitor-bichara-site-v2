@@ -1,6 +1,6 @@
 ---
-title: "AcidGames.space"
-description: "Lorem ipsum dolor sit amet"
+title: "Outro Projeto Top"
+description: "Descrição boa d+++ vamo q vamo bora bora. Isso ai man."
 tags: ["go", "golang", "hugo"]
 weight: 1
 draft: false

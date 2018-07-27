@@ -15,7 +15,7 @@
 
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
-
+    {{ with .Params.featured_image }}<img class="projetoImg" src="{{ . }}">{{ end }}
     <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
     <h5>{{ $.Scratch.Get "subtitle" }}</h5>
     {{ range .Params.tags }}
@@ -23,3 +23,4 @@
     {{ end }}
 
 </div>
+{{ with .Params.featured_image }}<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">{{ end }}

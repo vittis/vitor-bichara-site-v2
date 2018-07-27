@@ -1,10 +1,10 @@
 ---
-title: "AcidGames.space"
-description: "Lorem ipsum dolor sit amet"
+title: "CastleArena.io"
+description: "Descrição boa d+++ vamo q vamo bora bora. Isso ai man."
 tags: ["go", "golang", "hugo"]
 weight: 1
 draft: false
-featured_image: "/img/projetos/AcidGames_homepage.png"
+featured_image: "/img/projetos/CastleArena1.png"
 ---
 
 ## Introduction
