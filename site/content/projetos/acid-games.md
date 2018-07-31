@@ -1,7 +1,7 @@
 ---
 title: "AcidGames.space"
 description: "Plataforma de jogos online onde desenvolvedores podem contribuir submetendo seus próprios jogos."
-tags: ["golang", "mongodb", "RESTful", "sass", "fullstack"]
+tags: ["golang", "mongodb", "RESTful", "sass", "es6", "fullstack"]
 weight: 1
 draft: false
 featured_image: "/img/projetos/AcidGames_homepage.jpg"
