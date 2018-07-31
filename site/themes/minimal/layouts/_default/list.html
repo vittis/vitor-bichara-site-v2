@@ -20,8 +20,10 @@
        for(i=0; i<items.length; i++) {
             items[i].style.marginBottom =  "15px";
             items[i].style.marginTop =  "15px";
-
         }
+        var hrs = document.getElementsByClassName("hrBom");
+
+        hrs[hrs.length-1].parentNode.removeChild(hrs[hrs.length-1]);
     }
 </script>
 {{ partial "paginator" . }}

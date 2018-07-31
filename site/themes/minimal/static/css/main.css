@@ -78,7 +78,7 @@ a:hover {
 /*list item for posts and projects*/
 
 .projetoImg {
-    max-width: 70%;
+    max-width: 75%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 3px;
     transition: all 0.5s;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .projetoImg:hover {
-    transform: scale(1.02)
+    transform: scale(1.03)
 }
 
 .item {
