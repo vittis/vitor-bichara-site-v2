@@ -64,6 +64,7 @@
 </main>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
+    
     if (window.outerHeight > window.innerWidth) {
         particlesJS.load('particles-js', './particlesjs-config-mobile.json', function() {
         });
@@ -88,11 +89,12 @@
   }
 
 
-
-  while (titulo.clientWidth > window.outerWidth-50) {
+    var contadorBreak=0;
+  while (titulo.clientWidth > window.innerWidth-50 && contadorBreak < 10) {
     var style = window.getComputedStyle(titulo, null).getPropertyValue('font-size');
     var fontSize = parseFloat(style); 
     titulo.style.fontSize = (fontSize - 10) + 'px';
+    contadorBreak++;
   }
 
   if (window.outerWidth < window.outerHeight) {
