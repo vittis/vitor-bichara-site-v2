@@ -29,20 +29,24 @@ main {
 
 /*home page*/
 
-.intro {
+/* .intro {
     transform: translateY(22vh);
-}
+} */
 
 .intro > h1 {
     /* color: #212121; */
     color: #1b4e6f;
-    font-size: 11vh;
+    font-size: 42px;
 }
-
 .intro > h2 {
     color: /* #757575 */#367171;
-    font-size: 3vmin;
+    font-size: 15px;
 }
+
+    
+
+
+
 
 
 .intro > .profile {
