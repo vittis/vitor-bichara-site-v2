@@ -26,3 +26,7 @@ Site pessoal para a publicitária e designer gráfico Aline Botelho.
 * Webpack
 
 ## Mídia
+
+<figure>
+  <img src="/img/projetos/aline-botelho.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>

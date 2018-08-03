@@ -19,9 +19,25 @@ Construído do zero e utilizando recursos nativos para fins de aprendizado.
 
 * HTML5
 * CSS3 (css-grid e css-animations)
+* SVG 
 * Javascript
 * Pixijs
 * Github Pages
 
 ## Mídia
 
+<!-- <figure>
+  <img src="/img/projetos/vitor-bichara-v1.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/vitor-bichara-v1/vitor2.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/vitor-bichara-v1/vitor3.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure> -->
+
+<figure>
+  <img src="/img/projetos/vitor-bichara-v1/vitor1.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>

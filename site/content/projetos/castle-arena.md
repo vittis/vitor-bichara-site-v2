@@ -36,5 +36,17 @@ Publicado em dezenas de portais de jogos online, conta com jogadores no mundo to
 
 ## Mídia
 
+<figure>
+  <img src="/img/projetos/CastleMenor.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/castle-arena/castle2.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/castle-arena/castle1.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
 {{< youtube 0LOCGD6Scew >}}
 

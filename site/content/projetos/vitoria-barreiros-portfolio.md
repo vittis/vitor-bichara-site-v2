@@ -25,3 +25,14 @@ O projeto não foi finalizado.
 * Sass (css-grid e flexbox)
 
 ## Mídia
+
+<figure>
+  <img src="/img/projetos/vitoria-barreiros/vitoria1.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/vitoria.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+
+

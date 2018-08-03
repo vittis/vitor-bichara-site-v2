@@ -34,4 +34,22 @@ Possibilita o cadastro de desenvolvedores, onde estes tem acesso à um dashboard
 * Golang Templating
 
 ## Mídia
+<figure>
+  <img src="/img/projetos/acid-games/logo.png" class="img-responsive center-block" style="width: 70%;padding: 5px;" />
+</figure>
+<figure>
+  <img src="/img/projetos/AcidGames_homepage.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/acid-games/acid1.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/acid-games/acid2.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/acid-games/acid3.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
 

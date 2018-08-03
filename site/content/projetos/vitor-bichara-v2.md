@@ -30,3 +30,10 @@ Construído utilizando um SSG (Static Site Generator) e CMS (Content Management 
 
 ## Mídia
 
+<figure>
+  <img src="/img/projetos/vitor-bichara-v2.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
+
+<figure>
+  <img src="/img/projetos/vitor-bichara-v2/vitor1.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+</figure>
