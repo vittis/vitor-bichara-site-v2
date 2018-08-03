@@ -7,7 +7,21 @@ draft: false
 featured_image: "/img/projetos/vitor-bichara-v1.jpg"
 ---
 
-<!-- ## Introduction
+## Vítor Bichara - Primeira Versão
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
- -->
+Primeira versão do meu site pessoal.
+
+Construído do zero e utilizando recursos nativos para fins de aprendizado.
+
+**Repositório:** [https://github.com/vittis/vitor-bichara](https://github.com/vittis/vitor-bichara)
+
+## Tecnologias utilizadas
+
+* HTML5
+* CSS3 (css-grid e css-animations)
+* Javascript
+* Pixijs
+* Github Pages
+
+## Mídia
+

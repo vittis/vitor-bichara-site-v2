@@ -1,5 +1,5 @@
 ---
-title: "Serviços freelance"
+title: "Serviços Freelance"
 date: 2018-07-29
 tags: ["freelance", "web"]
 draft: false

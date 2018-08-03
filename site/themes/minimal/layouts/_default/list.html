@@ -3,7 +3,7 @@
 <main>
     <h2>{{ .Title }}</h2>
 
-    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+    {{ range (.Paginator 10).Pages }} {{ partial "list-item" . }} {{ end }}
     <!-- <script>
         var titulo = document.getElementById("tituloSessao");
         if (titulo.innerHTML == "Projects") {
@@ -16,7 +16,6 @@
 <script>
     if(window.location.href.indexOf("projetos") > -1) {
        var items = document.getElementsByClassName("item");
-       //var q = document.getElementById("").style.marginbo
        for(i=0; i<items.length; i++) {
             items[i].style.marginBottom =  "15px";
             items[i].style.marginTop =  "15px";

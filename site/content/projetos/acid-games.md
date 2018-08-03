@@ -1,13 +1,34 @@
 ---
 title: "AcidGames.space"
-description: "Plataforma de jogos online onde desenvolvedores podem contribuir submetendo seus próprios jogos."
+description: "Plataforma de jogos online onde desenvolvedores podem contribuir submetendo jogos HTML5."
 tags: ["golang", "mongodb", "RESTful", "sass", "es6", "fullstack"]
-weight: 1
+weight: 2
 draft: false
 featured_image: "/img/projetos/AcidGames_homepage.jpg"
 ---
 
-<!-- ## Introduction
+## AcidGames.space
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme. 
- -->
+Plataforma de jogos online onde desenvolvedores podem contribuir submetendo seus próprios jogos.
+
+Possibilita o cadastro de desenvolvedores, onde estes tem acesso à um dashboard em que podem submeter e editar jogos HTML5.
+
+**Repositório:** [https://github.com/vittis/castle-fight](https://github.com/vittis/castle-fight)
+
+## Tecnologias utilizadas
+<h4>Back-end:</h4>
+
+* Golang
+* Gorilla Mux
+* Gorilla Sessions
+* MongoDB
+
+<h4>Front-end:</h4>
+
+* HTML5
+* Saas
+* Javascript
+* Golang Templating
+
+## Mídia
+

@@ -1,12 +1,32 @@
 ---
 title: "Vítor Bichara Versão Atual"
 description: "Versão atual do meu site pessoal."
-tags: ["hugo", "netlify-cms", "jamstack", "npm", "postCSS", "babel", "webpack", "gulp"]
-weight: 3
+tags: ["hugo", "netlify-cms", "npm", "postCSS", "babel", "webpack", "gulp", "jamstack"]
+weight: 1
 draft: false
 featured_image: "/img/projetos/vitor-bichara-v2.jpg"
 ---
 
-<!-- ## Introduction
+## Vítor Bichara - Versão Atual
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme. -->
+Versão atual do meu site pessoal.
+
+Construído utilizando um SSG (Static Site Generator) e CMS (Content Management System) e várias ferramentas de otimização de produção de front-end. Seguindo os príncipios da [JAMstack](https://jamstack.org/).
+
+**Repositório:** [https://github.com/vittis/vitor-bichara-site-v2](https://github.com/vittis/vitor-bichara-site-v2)
+
+**URL:** [https://www.vitorbichara.com/](https://www.vitorbichara.com/)
+
+
+## Tecnologias utilizadas
+
+* Hugo
+* Netlify
+* Netlify-CMS
+* Npm
+* postCSS
+* Babel
+* Webpack
+
+## Mídia
+

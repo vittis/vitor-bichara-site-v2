@@ -2,12 +2,26 @@
 title: "Portfólio Vitória Barreiros"
 description: "Site portfólio feito sob encomenda para a artista plástica Vitória Barreiros."
 tags: ["html5", "jquery", "sass"]
-weight: 4
+weight: 6
 draft: false
 featured_image: "/img/projetos/vitoria.jpg"
 ---
 
-<!-- ## Introduction
+## Portfólio Vitória Barreiros
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
- -->
+Site portfólio feito sob encomenda para a artista plástica Vitória Barreiros.
+
+O projeto não foi finalizado.
+
+**Repositório:** [https://github.com/vittis/vitoria-barreiros](https://github.com/vittis/vitoria-barreiros)
+
+**URL:** Não disponível
+
+
+## Tecnologias utilizadas
+
+* HTML5
+* JQuery
+* Sass (css-grid e flexbox)
+
+## Mídia
