@@ -7,7 +7,7 @@ draft: false
 featured_image: "/img/projetos/aline-botelho.jpg"
 ---
 
-## Site Pessoal - Aline Botelho
+## Site Pessoal Aline Botelho
 
 Site pessoal para a publicitária e designer gráfico Aline Botelho.
 

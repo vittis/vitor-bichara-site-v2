@@ -13,7 +13,10 @@ Plataforma de jogos online onde desenvolvedores podem contribuir submetendo seus
 
 Possibilita o cadastro de desenvolvedores, onde estes tem acesso à um dashboard em que podem submeter e editar jogos HTML5.
 
-**Repositório:** [https://github.com/vittis/castle-fight](https://github.com/vittis/castle-fight)
+**Repositório:** [https://github.com/vittis/acid-games](https://github.com/vittis/acid-games)
+
+**URL:** Não disponível
+
 
 ## Tecnologias utilizadas
 <h4>Back-end:</h4>
