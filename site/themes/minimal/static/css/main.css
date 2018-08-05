@@ -74,7 +74,12 @@ a.icon:hover {
 a:hover {
     color: var(--accent) !important;
 }
-
+li a i {
+    color: #1b4e6f;
+}
+li a i:hover {
+    color: #73a4c5;
+}
 /*paginator at bottom of list view*/
 
 .pages {
