@@ -11,7 +11,7 @@ Neste post vou falar sobre as
 motivações que me levaram a desenvolver para a web. Também detalharei as experiências que tive ao desenvolver o meu primeiro projeto
 para a web: CastleArena.io.
 
-## Vítor Bichara? Quem?
+## <span style="color:#1a7d8b">Vítor Bichara? Quem?<span>
 
 Antes de começar, gostaria de falar um pouco sobre mim e como iniciei a minha carreira profissional.
 
@@ -34,7 +34,7 @@ A minha experiência como sócio-fundador na Mad Pixel foi excelente. Demos duas
 
 Apesar de estar indo bem, em 2016 decidi sair da empresa. Houveram vários motivos que culminaram nessa decisão. Para resumir, eu não estava de acordo com o rumo que a empresa estava tomando. Acreditava ter outros planos para a minha carreira, apesar de não saber exatamente quais eram.
 
-## Como viver fazendo jogos? Eis a questão.
+## <span style="color:#1a7d8b">Como viver fazendo jogos? Eis a questão.</span>
 
 Encontrei-me numa situação em que estava perto de terminar a minha graduação e não tinha certeza do que faria depois. A ideia de trabalhar com jogos ainda estava em minha cabeça. Não me agradava muito a ideia de ser contratado e trabalhar num escritório, nem que seja fazendo jogos. O meu objetivo final era de ser um desenvolvedor independente, trabalhar nos meus próprios projetos e gerar a minha renda de forma autônoma.
 
@@ -59,7 +59,7 @@ Motivado e inspirado pelo seu modelo de negócio, comecei a arquitetar o meu pr�
 
 Nessa época os jogos ".io" estavam em alta. Popularizado pelo famoso jogo Agar.io, percebi um grande fluxo de movimento ao redor desse novo gênero de jogo exclusivo da web. Percebi aí uma oportunidade para o meu primeiro projeto para a web: **Um jogo do gênero ".io"**.
 
-## CastleArena.io
+## <span style="color:#1a7d8b">CastleArena.io</span>
 
 É inegável que [Castle Arena](http://castlearena.io/) foi um projeto extremamente ambicioso. Principalmente para mim, um iniciante em tecnlogias web, apesar de ser um programador experiente.
 
@@ -78,7 +78,7 @@ Confesso que fiquei completamente surpreso com esses números, principalmente se
 
 Falando em recompensa... Você deve estar se perguntando "Tá, e quanto dinheiro você ganhou?". Surpresa: **Nenhum!**
 
-## Monetização? Onde?
+## <span style="color:#1a7d8b">Monetização? Onde?</span>
 
 Infelizmente, não planejei muito bem a monetização do jogo, na verdade, eu a subestimei. Pensei que poderia lidar com isso após o lançamento. O final do desenvolvimento foi bastante estressante e o que eu mais queria naquela hora era terminar o jogo logo e lançá-lo no mundo.
 
@@ -86,7 +86,7 @@ Após a onda tremenda de acessos inicial, tentei de tudo para monetizar o jogo a
 
 Nos meses seguintes os acessos foram caindo aos poucos, o que era esperado, apesar de ainda estarem consistentes e numa quantidade considerável.
 
-## Futuro
+## <span style="color:#1a7d8b">Futuro</span>
 
 Confesso que antes de tomar todas as decisões que citei, eu tinha um pouco de preconceito com a web. Sempre ouvia fofocas de que Javascript era uma péssima linguagem, que a web era uma zona de desorganização, dos diversos frameworks que surgiam dia após dia... Entre outras coisas.
 
@@ -96,7 +96,7 @@ Também me desprendi daquela ideia de que eu somente queria trabalhar com jogos,
 
 Continuo trabalhando em direção à minha meta de me tornar um desenvolvedor autônomo e independente, apesar de ter mudado novamente a forma que eu penso, acho que a vida tem disso. Sinto-me muito mais próximo do que quando comecei, há mais ou menos 2 anos atrás.
 
-## Conclusão
+## <span style="color:#1a7d8b">Conclusão</span>
 
 Essa foi a minha jornada, ou melhor, o começo da minha jornada como desenvolvedor web. Como já disse, estou empolgado com o que o futuro tem a oferecer.
 

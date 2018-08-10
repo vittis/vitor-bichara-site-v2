@@ -15,6 +15,8 @@ Construído do zero e utilizando recursos nativos para fins de aprendizado.
 
 **Repositório:** [https://github.com/vittis/vitor-bichara](https://github.com/vittis/vitor-bichara)
 
+**URL:** [https://vittis.github.io/vitor-bichara/](https://vittis.github.io/vitor-bichara/)
+
 ## Tecnologias utilizadas
 
 * HTML5

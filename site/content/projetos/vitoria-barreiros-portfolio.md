@@ -2,7 +2,7 @@
 title: "Portfólio Vitória Barreiros"
 description: "Site portfólio feito sob encomenda para a artista plástica Vitória Barreiros."
 tags: ["html5", "jquery", "sass"]
-weight: 6
+weight: 7
 draft: false
 featured_image: "/img/projetos/vitoria.jpg"
 ---

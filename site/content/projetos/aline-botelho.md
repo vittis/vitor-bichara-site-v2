@@ -2,7 +2,7 @@
 title: "Site Pessoal Aline Botelho"
 description: "Site pessoal para a publicitária e designer gráfico Aline Botelho."
 tags: ["hugo", "npm", "postCSS", "babel", "webpack", "gulp", "jamstack"]
-weight: 3
+weight: 5
 draft: false
 featured_image: "/img/projetos/aline-botelho.jpg"
 ---
