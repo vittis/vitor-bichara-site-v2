@@ -145,7 +145,7 @@
     <h2>{{ .Title }}</h2>
     {{ if eq .Title "Projetos" }}
     <div style="margin-top: 15px;"></div>
-    <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;" onclick="toggleWebJogos()" checked="checked" />
+    <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;" onclick="toggleWebJogos(this)" checked="checked" />
     <label class="cbx" for="cbx">
         <span>
             <svg width="12px" height="10px" viewbox="0 0 12 10">
@@ -156,7 +156,7 @@
     </label>
     <div style="height: 1px;width: 20px; display: inline-block;"></div>
 
-    <input class="inp-cbx" id="cbx2" type="checkbox" style="display: none;" onclick="toggleWebJogos()" checked="checked" />
+    <input class="inp-cbx" id="cbx2" type="checkbox" style="display: none;" onclick="toggleWebJogos(this)" checked="checked" />
     <label class="cbx" for="cbx2">
         <span>
             <svg width="12px" height="10px" viewbox="0 0 12 10">
@@ -184,19 +184,35 @@
         hrs[hrs.length - 1].parentNode.removeChild(hrs[hrs.length - 1]);
     }
 
-    function toggleWebJogos() {
+    function toggleWebJogos(e) {
         var webItems = document.getElementsByClassName("web-item");
         var jogoItems = document.getElementsByClassName("jogo-item");
 
         var web = document.getElementById("cbx");
         var jogos = document.getElementById("cbx2");
+        
+    /*     if (!web.checked && jogos.checked) {
+            jogos.disabled = true;
+        }
+        if (web.checked && !jogos.checked) {
+            web.disabled = true;
+        }
+        if (web.checked && jogos.checked) {
+            web.disabled = false;
+            jogos.disabled = false;
+        } */
+
 
         web.disabled = true;
         jogos.disabled = true;
         setTimeout(() => {
             web.disabled = false;
             jogos.disabled = false;
-        }, 600);
+        }, 300);
+
+        
+
+
         if (web.checked == true) {
             for (let i = 0; i < webItems.length; i++) {
                 webItems[i].classList.remove("hide");
@@ -207,21 +223,28 @@
                 setTimeout(() => {
                     webItems[i].classList.add("hide");
                     webItems[i].classList.remove("hide-full-item");
-                }, 600);
+                }, 300);
             }
         }
 
         if (jogos.checked) {
-            //if web ta checked
-            for (let i = 0; i < jogoItems.length; i++) {  
-                jogoItems[i].classList.add("hide");
+            if (!web.checked) {
+                console.log("ASAS")
+                for (let i = 0; i < jogoItems.length; i++) {  
+                    jogoItems[i].classList.add("hide");
+                }
+                setTimeout(() => {
+                    for (let i = 0; i < jogoItems.length; i++) {
+                        jogoItems[i].classList.remove("hide");
+                    }
+                }, 300);
             }
-            setTimeout(() => {
-                for (let i = 0; i < jogoItems.length; i++) {
+            else {
+                for (let i = 0; i < jogoItems.length; i++) {  
                     jogoItems[i].classList.remove("hide");
                 }
-            }, 600);
-            //else
+            }
+            
         }
         else {
             for (let i = 0; i < jogoItems.length; i++) {
