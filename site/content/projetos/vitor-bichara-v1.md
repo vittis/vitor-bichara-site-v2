@@ -2,7 +2,7 @@
 title: "Vítor Bichara Primeira Versão"
 description: "Primeira versão do meu site pessoal."
 tags: ["html5", "es6", "css3", "webgl"]
-weight: 5
+weight: 6
 draft: false
 featured_image: "/img/projetos/vitor-bichara-v1.jpg"
 ---

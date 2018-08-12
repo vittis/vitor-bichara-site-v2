@@ -9,7 +9,7 @@ Sou um **desenvolvedor web full-stack** com cerca de **8 anos de experiência** 
 
 Eu mantive, desenvolvi e lançei [múltiplos projetos](/projetos) do zero, administrando suas bases de código tanto no back-end quanto no front-end.
 
-Meu conjunto atual de ferramentas inclui <span style="color:#1a7d8b">NodeJS & Express, Golang & Gorilla Mux, Typescript, Hugo, Css3 Grid & Flexbox</span> e todos os outros vários frameworks, bibliotecas e tecnologias relacionadas.
+Meu conjunto atual de ferramentas inclui <span style="color:#1a7d8b">NodeJS & Express, Golang & Gorilla Mux, Typescript, Hugo, CSS3 Grid & Flexbox</span> e todos os outros vários frameworks, bibliotecas e tecnologias relacionadas.
 
 Sinta-se à vontade para me fazer qualquer pergunta. Eu posso ajudá-lo em seu projeto desde UI mockups e desenvolvimento front-end até a correção de design e instalação de configurações em ambientes de produção e staging.
 <hr>

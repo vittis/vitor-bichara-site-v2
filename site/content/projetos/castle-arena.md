@@ -2,9 +2,10 @@
 title: "CastleArena.io"
 description: "Jogo web html5 independente multiplayer de estratégia em tempo real com elementos de card games."
 tags: ["nodejs", "express", "socket.io", "npm", "phaserjs", "typescript"]
-weight: 5
+weight: 4
 draft: false
 featured_image: "/img/projetos/CastleMenor.jpg"
+jogoEweb: true
 ---
 
 ## CastleArena.io

@@ -1,30 +1,238 @@
-{{ partial "header" . }}
+{{ partial "header" . }} {{ if eq .Title "Projetos" }}
+<style>
+    .cbx {
+        margin: auto;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: pointer;
+    }
 
+    .cbx span {
+        display: inline-block;
+        vertical-align: middle;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .cbx span:first-child {
+        position: relative;
+        width: 18px;
+        height: 18px;
+        border-radius: 3px;
+        transform: scale(1);
+        vertical-align: middle;
+        border: 1px solid #9098A9;
+        transition: all 0.2s ease;
+    }
+
+    .cbx span:first-child svg {
+        position: absolute;
+        top: 3px;
+        left: 2px;
+        fill: none;
+        stroke: #FFFFFF;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 16px;
+        stroke-dashoffset: 16px;
+        transition: all 0.3s ease;
+        transition-delay: 0.1s;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .cbx span:first-child:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #1a7d8b;
+        display: block;
+        transform: scale(0);
+        opacity: 1;
+        border-radius: 50%;
+    }
+
+    .cbx span:last-child {
+        padding-left: 4px;
+    }
+
+    .cbx:hover span:first-child {
+        border-color: #1a7d8b;
+    }
+
+    .inp-cbx:checked+.cbx span:first-child {
+        background: #1a7d8b;
+        border-color: #1a7d8b;
+        animation: wave 0.4s ease;
+    }
+
+    .inp-cbx:checked+.cbx span:first-child svg {
+        stroke-dashoffset: 0;
+    }
+
+    .inp-cbx:checked+.cbx span:first-child:before {
+        transform: scale(3.5);
+        opacity: 0;
+        transition: all 0.6s ease;
+    }
+
+    label {
+        font-weight: initial;
+    }
+
+    @keyframes wave {
+        50% {
+            transform: scale(0.9);
+        }
+    }
+
+    .full-item:nth-child(even) {
+        animation: showAnimR 0.6s ease;
+    }
+
+    .full-item:nth-child(odd) {
+        animation: showAnimL 0.6s ease;
+    }
+    .hide-full-item:nth-child(even) {
+        animation: hideAnimR 0.6s ease;
+    }
+    .hide-full-item:nth-child(odd) {
+        animation: hideAnimL 0.6s ease;
+    }
+
+    @keyframes showAnimL {
+        0% {
+            transform: translateX(400px);
+            opacity: 0;;
+        }
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes showAnimR {
+        0% {
+            transform: translateX(-400px);
+            opacity: 0;;
+        }
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes hideAnimL {
+        0% {
+            transform: translateX(0px);
+            opacity: 1;;
+        }
+        100% {
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+    }
+    @keyframes hideAnimR {
+        0% {
+            transform: translateX(0px);
+            opacity: 1;;
+        }
+        100% {
+            transform: translateX(400px);
+            opacity: 0;
+        }
+    }
+    </style>
+{{ end }}
 <main>
     <h2>{{ .Title }}</h2>
+    {{ if eq .Title "Projetos" }}
+    <div style="margin-top: 15px;"></div>
+    <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;" onclick="toggleWebJogos()" checked="checked" />
+    <label class="cbx" for="cbx">
+        <span>
+            <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+            </svg>
+        </span>
+        <span>Web</span>
+    </label>
+    <div style="height: 1px;width: 20px; display: inline-block;"></div>
 
-    {{ range (.Paginator 10).Pages }} {{ partial "list-item" . }} {{ end }}
-    <!-- <script>
-        var titulo = document.getElementById("tituloSessao");
-        if (titulo.innerHTML == "Projects") {
-            document.title = "Projetos";
-            titulo.innerHTML = "Projetos";
-        }
-        
-    </script> -->
+    <input class="inp-cbx" id="cbx2" type="checkbox" style="display: none;" onclick="toggleWebJogos()" checked="checked" />
+    <label class="cbx" for="cbx2">
+        <span>
+            <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+            </svg>
+        </span>
+        <span>Jogos</span>
+    </label>
+
+
+    {{ end }} {{ range (.Paginator 10).Pages }} {{ partial "list-item" . }} {{ end }}
+
 </main>
 <script>
-    if(window.location.href.indexOf("projetos") > -1) {
-       var items = document.getElementsByClassName("item");
-       for(i=0; i<items.length; i++) {
-            items[i].style.marginBottom =  "15px";
-            items[i].style.marginTop =  "15px";
+
+    //toggleWebJogos();
+    if (window.location.href.indexOf("projetos") > -1) {
+        var items = document.getElementsByClassName("item");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.marginBottom = "15px";
+            items[i].style.marginTop = "15px";
         }
         var hrs = document.getElementsByClassName("hrBom");
 
-        hrs[hrs.length-1].parentNode.removeChild(hrs[hrs.length-1]);
+        hrs[hrs.length - 1].parentNode.removeChild(hrs[hrs.length - 1]);
     }
-</script>
-{{ partial "paginator" . }}
 
-{{ partial "footer" . }}
+    function toggleWebJogos() {
+        var webItems = document.getElementsByClassName("web-item");
+        var jogoItems = document.getElementsByClassName("jogo-item");
+
+        var web = document.getElementById("cbx");
+        var jogos = document.getElementById("cbx2");
+
+        web.disabled = true;
+        jogos.disabled = true;
+        setTimeout(() => {
+            web.disabled = false;
+            jogos.disabled = false;
+        }, 600);
+        if (web.checked == true) {
+            for (let i = 0; i < webItems.length; i++) {
+                webItems[i].classList.remove("hide");
+            }
+        } else {
+            for (let i = 0; i < webItems.length; i++) {
+                webItems[i].classList.add("hide-full-item");
+                setTimeout(() => {
+                    webItems[i].classList.add("hide");
+                    webItems[i].classList.remove("hide-full-item");
+                }, 600);
+            }
+        }
+
+        if (jogos.checked) {
+            //if web ta checked
+            for (let i = 0; i < jogoItems.length; i++) {  
+                jogoItems[i].classList.add("hide");
+            }
+            setTimeout(() => {
+                for (let i = 0; i < jogoItems.length; i++) {
+                    jogoItems[i].classList.remove("hide");
+                }
+            }, 600);
+            //else
+        }
+        else {
+            for (let i = 0; i < jogoItems.length; i++) {
+                jogoItems[i].classList.add("hide-full-item");
+                setTimeout(() => {
+                    jogoItems[i].classList.add("hide");
+                    jogoItems[i].classList.remove("hide-full-item");
+                }, 300);
+            }
+        }
+    }
+
+
+</script> {{ partial "paginator" . }} {{ partial "footer" . }}
