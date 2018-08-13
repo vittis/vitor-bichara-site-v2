@@ -1,7 +1,7 @@
 ---
 title: "Leo's Revenge"
 description: "Jogo desenvolvido em 34 horas na Jam Nerd Festival 2016 avaliado em 1º lugar."
-tags: ["Unity", "C#","Game Jam"]
+tags: ["Unity","Game Jam"]
 weight: 11
 draft: false
 featured_image: "/img/projetos/leosrevenge.png"

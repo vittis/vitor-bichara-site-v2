@@ -1,7 +1,7 @@
 ---
 title: "Trojan Trip"
 description: "Trojan Trip é um jogo bullet hell com dificuldade progressiva."
-tags: ["Unity", "C#","Game Jam"]
+tags: ["Unity", "Game Jam"]
 weight: 11
 draft: false
 featured_image: "/img/projetos/trojantrip.png"

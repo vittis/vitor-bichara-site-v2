@@ -1,7 +1,7 @@
 ---
 title: "Light Car"
 description: "Jogo mobile independente no estilo ultra casual publicado na Google Play Store, dísponível para dispositivos Android."
-tags: ["Unity", "C#","Game Jam"]
+tags: ["Unity","Game Jam"]
 weight: 13
 draft: false
 featured_image: "/img/projetos/lightcar.png"
