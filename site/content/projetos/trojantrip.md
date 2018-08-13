@@ -1,10 +1,10 @@
 ---
-title: "Hexsum"
-description: "Jogo tático baseado em turnos onde reis e seus guerreiros batalham em um campo hexagonal."
-tags: ["sdl2", "C++"]
-weight: 8
+title: "Trojan Trip"
+description: "Trojan Trip é um jogo bullet hell com dificuldade progressiva."
+tags: ["Unity", "C#","Game Jam"]
+weight: 11
 draft: false
-featured_image: "/img/projetos/hexsum.png"
+featured_image: "/img/projetos/trojantrip.png"
 jogo: true
 ---
 

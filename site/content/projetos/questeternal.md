@@ -1,10 +1,10 @@
 ---
-title: "JOGO"
-description: "Web app que consome API's para mostrar um cachorro e uma citação dinamicamente."
-tags: ["html5", "javascript", "css3", "api"]
-weight: 9
+title: "Quest of the Eternal Sword"
+description: "Desenvolvido para a #gbjam3 da Gamejolt, a Jam tinha o objetivo de simular uma experiência de jogos para o GameBoy. O jogo foi criado em 10 dias e traz uma aventura épica e nostálgica. "
+tags: ["Unity", "C#","Game Jam"]
+weight: 12
 draft: false
-featured_image: "/img/projetos/dogquote.png"
+featured_image: "/img/projetos/questeterneal.jpg"
 jogo: true
 ---
 

@@ -167,7 +167,7 @@
     </label>
 
 
-    {{ end }} {{ range (.Paginator 10).Pages }} {{ partial "list-item" . }} {{ end }}
+    {{ end }} {{ range (.Paginator 15).Pages }} {{ partial "list-item" . }} {{ end }}
 
 </main>
 <script>
@@ -214,9 +214,21 @@
 
 
         if (web.checked == true) {
+
+            for (let i = 0; i < jogoItems.length; i++) {
+                jogoItems[i].classList.add("hide-full-item");
+                setTimeout(() => {
+                    jogoItems[i].classList.add("hide");
+                    jogoItems[i].classList.remove("hide-full-item");
+                }, 300);
+            }
             for (let i = 0; i < webItems.length; i++) {
                 webItems[i].classList.remove("hide");
             }
+
+
+
+            
         } else {
             for (let i = 0; i < webItems.length; i++) {
                 webItems[i].classList.add("hide-full-item");
@@ -228,8 +240,7 @@
         }
 
         if (jogos.checked) {
-            if (!web.checked) {
-                console.log("ASAS")
+            //if (!web.checked) {
                 for (let i = 0; i < jogoItems.length; i++) {  
                     jogoItems[i].classList.add("hide");
                 }
@@ -238,12 +249,12 @@
                         jogoItems[i].classList.remove("hide");
                     }
                 }, 300);
-            }
-            else {
+            //}
+            /* else {
                 for (let i = 0; i < jogoItems.length; i++) {  
                     jogoItems[i].classList.remove("hide");
                 }
-            }
+            } */
             
         }
         else {

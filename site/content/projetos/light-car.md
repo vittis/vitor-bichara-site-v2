@@ -1,10 +1,10 @@
 ---
-title: "Hexsum"
-description: "Jogo tático baseado em turnos onde reis e seus guerreiros batalham em um campo hexagonal."
-tags: ["sdl2", "C++"]
-weight: 8
+title: "Light Car"
+description: "Jogo mobile independente no estilo ultra casual publicado na Google Play Store, dísponível para dispositivos Android."
+tags: ["Unity", "C#","Game Jam"]
+weight: 13
 draft: false
-featured_image: "/img/projetos/hexsum.png"
+featured_image: "/img/projetos/lightcar.png"
 jogo: true
 ---
 

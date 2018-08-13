@@ -1,10 +1,10 @@
 ---
-title: "Hexsum"
-description: "Jogo tático baseado em turnos onde reis e seus guerreiros batalham em um campo hexagonal."
-tags: ["sdl2", "C++"]
-weight: 8
+title: "Water Works"
+description: "Jogo desenvolvido em 2 dias para a Kolks Game Jam, avaliado em 1° lugar entre os 52 jogos concorrentes de todo o Brasil e considerado dentro dos top 20 jogos brasileiros destaques do ano pelo portal Geração Gamer em 2015. "
+tags: ["Unity", "C#","Game Jam"]
+weight: 10
 draft: false
-featured_image: "/img/projetos/hexsum.png"
+featured_image: "/img/projetos/waterWork.png"
 jogo: true
 ---
 
