@@ -99,7 +99,7 @@ li a i:hover {
   transition: all 0.5s;
   cursor: crosshair;
   margin-bottom: 5px;
-  /* max-height: 35vh; */
+  max-height: 500px;
 }
 
 .projetoImg:hover {

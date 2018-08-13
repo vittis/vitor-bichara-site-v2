@@ -1,32 +1,26 @@
 ---
 title: "Light Car"
 description: "Jogo mobile independente no estilo ultra casual publicado na Google Play Store, dísponível para dispositivos Android."
-tags: ["Unity","Game Jam"]
+tags: ["Unity"]
 weight: 13
 draft: false
 featured_image: "/img/projetos/lightcar.png"
 jogo: true
 ---
 
-## Dog & quote
+## Light Car
 
-Web app que consome API's para mostrar um cachorro e uma citação dinamicamente.
+Jogo mobile independente no estilo ultra casual publicado na Google Play Store, dísponível para dispositivos Android.
 
-**Repositório:** [https://github.com/vittis/dog-quote](https://github.com/vittis/dog-quote)
-
-**URL:** [https://dogandquote.netlify.com/](https://dogandquote.netlify.com/)
-
+**URL:** [https://play.google.com/store/apps/details?id=madpixel.com.lightcar](https://play.google.com/store/apps/details?id=madpixel.com.lightcar)
 
 ## Tecnologias utilizadas
 
-* HTML5
-* CSS3 (css-grid, flexbox e css-animations)
-* SVG 
-* Javascript
-* Netlify
+* Unity
+* C#
 
 ## Mídia
 
 <figure>
-  <img src="/img/projetos/dogquote.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+  <img src="/img/projetos/lightcar.png" class="img-responsive center-block" style="max-width: 90%;padding: 5px;max-height: 500px;" />
 </figure>

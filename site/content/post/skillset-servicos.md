@@ -9,9 +9,12 @@ Sou um **desenvolvedor web full-stack** com cerca de **8 anos de experiência** 
 
 Eu mantive, desenvolvi e lançei [múltiplos projetos](/projetos) do zero, administrando suas bases de código tanto no back-end quanto no front-end.
 
-Meu conjunto atual de ferramentas inclui <span style="color:#1a7d8b">NodeJS & Express, Golang & Gorilla Mux, Typescript, Hugo, CSS3 Grid & Flexbox</span> e todos os outros vários frameworks, bibliotecas e tecnologias relacionadas.
+Meu conjunto atual de ferramentas web inclui <span style="color:#1a7d8b">NodeJS & Express, Golang & Gorilla Mux, Typescript, Hugo, CSS3 Grid & Flexbox, Saas</span> e todos os outros vários frameworks, bibliotecas e tecnologias relacionadas.
 
 Sinta-se à vontade para me fazer qualquer pergunta. Eu posso ajudá-lo em seu projeto desde UI mockups e desenvolvimento front-end até a correção de design e instalação de configurações em ambientes de produção e staging.
+
+Além dos meus conhecimentos web, sou ex-sócio fundador da [Mad Pixel Studios](http://madpixel.com.br/) como programador principal, onde participei ativamente da indústria nacional de jogos.
+
 <hr>
 
 ## <span style="color:#1a7d8b">Desenvolvimento Front-end</span>

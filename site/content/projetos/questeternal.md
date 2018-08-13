@@ -1,6 +1,6 @@
 ---
 title: "Quest of the Eternal Sword"
-description: "Desenvolvido para a #gbjam3 da Gamejolt, a Jam tinha o objetivo de simular uma experiência de jogos para o GameBoy. O jogo foi criado em 10 dias e traz uma aventura épica e nostálgica. "
+description: "Desenvolvido para a #gbjam3 da Gamejolt, a Jam tinha o objetivo de simular uma experiência de jogos para o GameBoy. O jogo foi criado em 10 dias e traz uma aventura épica e nostálgica."
 tags: ["Unity","Game Jam"]
 weight: 12
 draft: false
@@ -8,25 +8,20 @@ featured_image: "/img/projetos/questeterneal.jpg"
 jogo: true
 ---
 
-## Dog & quote
+## Quest of the Eternal Sword
 
-Web app que consome API's para mostrar um cachorro e uma citação dinamicamente.
+Desenvolvido para a #gbjam3 da Gamejolt, a Jam tinha o objetivo de simular uma experiência de jogos para o GameBoy. O jogo foi criado em 10 dias e traz uma aventura épica e nostálgica.
 
-**Repositório:** [https://github.com/vittis/dog-quote](https://github.com/vittis/dog-quote)
-
-**URL:** [https://dogandquote.netlify.com/](https://dogandquote.netlify.com/)
+**URL:** [https://gamejolt.com/games/quest-of-the-eternal-sword/31035](https://gamejolt.com/games/quest-of-the-eternal-sword/31035)
 
 
 ## Tecnologias utilizadas
 
-* HTML5
-* CSS3 (css-grid, flexbox e css-animations)
-* SVG 
-* Javascript
-* Netlify
+* Unity
+* C#
 
 ## Mídia
 
 <figure>
-  <img src="/img/projetos/dogquote.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+  <img src="/img/projetos/questeterneal.jpg" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
 </figure>

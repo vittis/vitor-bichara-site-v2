@@ -10,23 +10,16 @@ jogo: true
 
 ## Dog & quote
 
-Web app que consome API's para mostrar um cachorro e uma citação dinamicamente.
-
-**Repositório:** [https://github.com/vittis/dog-quote](https://github.com/vittis/dog-quote)
-
-**URL:** [https://dogandquote.netlify.com/](https://dogandquote.netlify.com/)
+Jogo desenvolvido em 34 horas na [Jam Nerd Festival 2016](http://jamnerdfestival.com.br/programacao/game-jam/). Com o tema "Estúdio de Cinema", Leo's Revenge apresentou mecânicas simples e viciantes que o fizeram ser avaliado em 1º lugar pelos jurados.
 
 
 ## Tecnologias utilizadas
 
-* HTML5
-* CSS3 (css-grid, flexbox e css-animations)
-* SVG 
-* Javascript
-* Netlify
+* Unity
+* C#
 
 ## Mídia
 
 <figure>
-  <img src="/img/projetos/dogquote.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
+  <img src="/img/projetos/leosrevenge.png" class="img-responsive center-block" style="width: 90%;padding: 5px;" />
 </figure>

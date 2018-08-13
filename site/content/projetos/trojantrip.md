@@ -1,6 +1,6 @@
 ---
 title: "Trojan Trip"
-description: "Trojan Trip é um jogo bullet hell com dificuldade progressiva."
+description: "Trojan Trip é um jogo bullet hell com dificuldade progressiva desenvolvido para a Ludum Dare."
 tags: ["Unity", "Game Jam"]
 weight: 11
 draft: false
@@ -8,14 +8,11 @@ featured_image: "/img/projetos/trojantrip.png"
 jogo: true
 ---
 
-## Dog & quote
+## Trojan Trip
 
-Web app que consome API's para mostrar um cachorro e uma citação dinamicamente.
+Trojan Trip é um jogo bullet hell com dificuldade progressiva desenvolvido para a Ludum Dare.
 
-**Repositório:** [https://github.com/vittis/dog-quote](https://github.com/vittis/dog-quote)
-
-**URL:** [https://dogandquote.netlify.com/](https://dogandquote.netlify.com/)
-
+**URL:** [https://gamejolt.com/games/trojan-trip/217703](https://gamejolt.com/games/trojan-trip/217703)
 
 ## Tecnologias utilizadas
 
