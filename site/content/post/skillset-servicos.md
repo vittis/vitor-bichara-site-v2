@@ -2,7 +2,7 @@
 title: "Minhas habilidades e serviços"
 date: 2018-07-29
 tags: ["freelance", "web"]
-draft: false
+draft: true
 ---
 
 Sou um **desenvolvedor web full-stack** com cerca de **8 anos de experiência** no campo de programação.
