@@ -97,7 +97,7 @@ li a i:hover {
   box-shadow: 3px 3px 5px grey;
   border-radius: 3px;
   transition: all 0.5s;
-  cursor: crosshair;
+  /* cursor: crosshair; */
   margin-bottom: 5px;
   max-height: 500px;
 }
@@ -124,12 +124,12 @@ li a i:hover {
 /*coloured borders at top and bottom of the page*/
 
 .navbar.navbar-default {
-  border-top: var(--border-width) solid var(--accent);
+  border-top: var(--border-width) solid #1e8391;
   box-shadow: 0px 1px 5px rgb(207, 207, 207);
 }
 
 footer {
-  border-bottom: var(--border-width) solid var(--accent);
+  border-bottom: var(--border-width) solid #1e8391;
 }
 
 img {
